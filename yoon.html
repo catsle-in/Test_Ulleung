@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostyle</title>
+
+    <style>
+        #footer {
+            background-color: darkgrey;
+            border: 1px solid black;
+            border-radius: 8px;
+            font-size: 10px;
+            padding: 5px;
+        }
+
+        #main-container {
+            display: flex;
+            margin: 10px;
+            padding: 10px;
+            
+        }
+
+
+        #Side-Bar {
+            background-color: darkturquoise;
+            color:white;
+            margin: 5px;
+            padding: 5px;
+            width: 300px;
+            height: 300px;
+            border-radius: 3px;
+        }
+
+        
+        li {
+            background-color: darkgray;
+            border: 1px solid rgb(101, 101, 101);
+            border-radius: 3px;
+            font-size: 15px;
+            margin: 5px;
+            
+        }
+
+
+       #header {
+        background-color: darkcyan;
+        border-radius: 8px;
+        padding: 5px;
+        margin: 1px;
+        color: white;
+       }
+
+        .menu:hover {
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .menu a{
+            /* 페이지에서 링크로 이동하는 <a> 태그는 파랗고 밑줄이 그어져 있잖아요? 그걸 없애주는 css 입니다.  */
+            text-decoration: none;
+            color: black;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <!-- 여기 이름 수정해주세요 -->
+        <h1>Welcome to yoonjung's homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+
+    <div id="main-container">
+        <div class = "menu">
+            <li><a href="style1.html">Stylesheet1</a></li>
+            <li><a href="style2.html">Stylesheet2</a></li>
+            <li><a href="style3.html">Stylesheet3</a></li>
+            <li><a href="style4.html">Stylesheet4</a></li>
+            <li><a href="nostyle.html">No Stylesheet</a></li>
+        </div>
+    
+    <div id="bigfont">
+        <h1>Same Page Different Stylesheets</h1>
+        <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change
+            the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following
+            links:</p>
+        <a href="style1.html">Stylesheet1,</a> <a href="style2.html">Stylesheet2.</a>
+
+        <h2>No Styles</h2>
+        <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks
+        like with no stylesheet:</p>
+        <a href="nostyle.html">No Stylesheet.</a>
+        <br>
+        <a href="index.html">Back to index</a>
+    </div>
+
+    <div id="Side-Bar">
+        <h4>Side-Bar</h4>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat.</p>
+    </div>
+
+    </div>
+
+
+    <div id="footer">
+        <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+        suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+        iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</P>
+    </div>
+</body>
+
+</html>
